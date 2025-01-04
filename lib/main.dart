@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'myApp.dart';
 
-void mnain (){
+void main (){
   runApp(
     MyApp(),
   );
