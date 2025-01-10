@@ -81,28 +81,31 @@ class categiores extends StatelessWidget {
                     crossAxisSpacing: 5,
                     mainAxisSpacing: 5,
                   ),
-                  itemBuilder: (context, index) => GestureDetector(
-                    onTap: () {
-                      controller.getCategoryImageIndex(index: index);
-                      log(categoryImages[index].toString());
-                    },
-                    child: Container(
-                      decoration: BoxDecoration(
-                        border: Border.all(
-                          color: (categoryImages[index] == controller.cat_index)
-                              ? Colors.greenAccent
-                              : Colors.transparent,
-                          width: 2,
-                        ),
-                        borderRadius: BorderRadius.circular(12),
-                        image: DecorationImage(
-                          image: AssetImage(
-                            categoryImages[index],
+                  itemBuilder: (context, index) =>
+                      GetBuilder<catController>(builder: (context) {
+                    return GestureDetector(
+                      onTap: () {
+                        controller.getCategoryImageIndex(index: index);
+                        log(categoryImages[index].toString());
+                      },
+                      child: Container(
+                        decoration: BoxDecoration(
+                          border: Border.all(
+                            color: (index == controller.cat_index)
+                                ? Colors.greenAccent
+                                : Colors.transparent,
+                            width: 2,
+                          ),
+                          borderRadius: BorderRadius.circular(12),
+                          image: DecorationImage(
+                            image: AssetImage(
+                              categoryImages[index],
+                            ),
                           ),
                         ),
                       ),
-                    ),
-                  ),
+                    );
+                  }),
                 ),
               )
             ],

@@ -127,6 +127,8 @@ class _All_spendingState extends State<All_spending> {
                   Text('Offline'),
                 ],
               ),
+              IconButton(onPressed: () async{
+                DateTime? datetime =  await showDatePicker(context: context, firstDate: DateTime(2007), lastDate: DateTime(2026),initialDate: DateTime.now(),)} , icon: Icon(Icons.date_range)),
               ElevatedButton(
                 onPressed: () {
                   if (_formKey.currentState!.validate()) {
