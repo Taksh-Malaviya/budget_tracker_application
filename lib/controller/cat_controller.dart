@@ -35,6 +35,6 @@ class catController extends GetxController {
   }
 
   void fatch() {
-    DBHelper.dbHelper.fetchCategory();
+    allCat = DBHelper.dbHelper.fetchCategory();
   }
 }

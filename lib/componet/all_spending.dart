@@ -127,8 +127,16 @@ class _All_spendingState extends State<All_spending> {
                   Text('Offline'),
                 ],
               ),
-              IconButton(onPressed: () async{
-                DateTime? datetime =  await showDatePicker(context: context, firstDate: DateTime(2007), lastDate: DateTime(2026),initialDate: DateTime.now(),)} , icon: Icon(Icons.date_range)),
+              IconButton(
+                onPressed: () async {
+                  //   DateTime? datetime =  await showDatePicker(context: context, firstDate: DateTime(2007), lastDate: DateTime(2026),initialDate: DateTime.now(),)} , icon: Icon(Icons.date_range)),
+                  DateTime? dateTime = await showDatePicker(
+                      context: context,
+                      firstDate: DateTime(2007),
+                      lastDate: DateTime(2016));
+                },
+                icon: Icon(Icons.date_range),
+              ),
               ElevatedButton(
                 onPressed: () {
                   if (_formKey.currentState!.validate()) {
@@ -137,7 +145,7 @@ class _All_spendingState extends State<All_spending> {
                     Get.snackbar("Error", "Please fill all required fields");
                   }
                 },
-                child: Text("Add data"),
+                child: Text("Save"),
               )
             ],
           ),
