@@ -35,10 +35,29 @@ Follow these steps to set up and run the app locally:
 
 ### Prerequisites
 - Install [Flutter](https://flutter.dev/docs/get-started/install)  
-- Set up an Android or iOS emulator, or connect a physical device.  
+- Set up an Android or iOS emulator, or connect a physical device.
+
+
+
+
 
 ### Installation
 1. **Clone the Repository**  
    ```bash
    git clone https://github.com/your-username/budget-tracker-app.git
    cd budget-tracker-app
+
+![2](https://github.com/user-attachments/assets/8ff8d909-f627-4359-93dc-2d77ae26f7e3)
+![1](https://github.com/user-attachments/assets/b8090ef8-3690-494e-927f-d8c0edeeb688)
+![4](https://github.com/user-attachments/assets/e9f1a07a-375b-4da2-832b-b2c2646fc08e)
+![3](https://github.com/user-attachments/assets/60c11816-d526-45a4-be23-dc0cba5c4625)
+
+
+
+
+
+
+<img src="e" width=250px>
+
+
+   
