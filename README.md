@@ -1,41 +1,41 @@
 # 📊 Budget Tracker App
 
-A simple and intuitive budget tracker app to manage your finances effectively! Built as a learning project, this app lets you track your expenses, manage your budget, and analyze your spending habits with ease.
+A simple and intuitive budget tracker app to manage your finances effectively! Built using Flutter, this app helps you track expenses, manage budgets, and analyze spending habits—all in a visually appealing and responsive interface.
 
 ---
 
 ## 🛠️ Features
 
 - **Add, Update, and Delete Transactions**  
-  Log your income and expenses effortlessly.
+  Effortlessly manage income and expenses.
 
-- **Real-time Budget Tracking**  
-  See your remaining budget and adjust spending on the go.
+- **Budget Insights**  
+  Keep track of your remaining budget in real-time.
 
-- **Visual Insights**  
-  Interactive charts to visualize your spending habits.
+- **Charts and Analytics**  
+  Gain visual insights into your spending habits.
 
-- **Responsive Design**  
-  Works seamlessly across devices.
+- **Cross-Platform Support**  
+  Runs seamlessly on both Android and iOS devices.
 
 ---
 
 ## 🔧 Technologies Used
 
-- **Frontend**: HTML, CSS, JavaScript  
-- **Backend**: Node.js, Express.js  
-- **Database**: MongoDB  
+- **Framework**: Flutter (Dart)  
+- **State Management**: Provider / Riverpod / Bloc (choose based on your implementation)  
+- **Database**: SQLite / Firebase (mention the one you use)  
 - **Version Control**: Git and GitHub  
 
 ---
 
 ## 🚀 Getting Started
 
-Follow these steps to set up the app locally:
+Follow these steps to set up and run the app locally:
 
 ### Prerequisites
-- Install [Node.js](https://nodejs.org/)  
-- Install [MongoDB](https://www.mongodb.com/)
+- Install [Flutter](https://flutter.dev/docs/get-started/install)  
+- Set up an Android or iOS emulator, or connect a physical device.  
 
 ### Installation
 1. **Clone the Repository**  
